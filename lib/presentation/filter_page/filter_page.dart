@@ -4,9 +4,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:times/core/constants.dart';
 
 import '../../application/filter_page_bloc/filter_page_bloc.dart';
-import 'filter_page/widgets/filter_list_widget.dart';
-import 'filter_page/widgets/selected_filters_widget.dart';
-import 'filter_page/widgets/sort_card.dart';
+import 'widgets/filter_list_widget.dart';
+import 'widgets/selected_filters_widget.dart';
+import 'widgets/sort_card.dart';
 
 class FilterPage extends StatefulWidget {
   const FilterPage({Key? key}) : super(key: key);

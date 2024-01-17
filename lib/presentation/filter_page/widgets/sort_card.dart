@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:times/core/constants.dart';
 
-import '../../../../application/filter_page_bloc/filter_page_bloc.dart';
-import '../../../../domain/models/models.dart';
-import '../../../custom_widgets/custom_radio_tile.dart';
+import '../../../application/filter_page_bloc/filter_page_bloc.dart';
+import '../../../domain/models/models.dart';
+import '../../custom_widgets/custom_radio_tile.dart';
 
 class SortCard extends StatefulWidget {
   final FilterPageLoaded state;

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:times/application/filter_page_bloc/filter_page_bloc.dart';
 import 'package:times/core/filter_helper.dart';
 
-import '../../../../domain/models/models.dart';
+import '../../../domain/models/models.dart';
 
 class SelectedFiltersWidget extends StatelessWidget {
   final List<Taxonomy> filterList;

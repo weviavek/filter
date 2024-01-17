@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:times/core/filter_helper.dart';
 
-import '../../../../application/filter_page_bloc/filter_page_bloc.dart';
-import '../../../../core/constants.dart';
-import '../../../../domain/models/models.dart';
-import '../../../custom_widgets/custom_radio_tile.dart';
+import '../../../application/filter_page_bloc/filter_page_bloc.dart';
+import '../../../core/constants.dart';
+import '../../../domain/models/models.dart';
+import '../../custom_widgets/custom_radio_tile.dart';
 
 class FilterListWidget extends StatelessWidget {
   final FilterPageLoaded state;
